@@ -1,4 +1,4 @@
-public class AddList {
+public class AddLast {
     Node head;
 
     class Node {
@@ -43,10 +43,10 @@ public class AddList {
     }
 
     public static void main(String[] args) {
-        AddList list1=new AddList();
-        list1.addLast(70);
-        list1.addLast(30);
+        AddLast list1=new AddLast();
         list1.addLast(56);
+        list1.addLast(30);
+        list1.addLast(70);
         list1.print();
     }
 }
