@@ -1,4 +1,4 @@
-public class CreateList {
+public class AddFirst {
     Node head;
 
     class Node {
@@ -29,7 +29,7 @@ public class CreateList {
         }
     }
     public static void main(String[] args) {
-        CreateList list = new CreateList();
+        AddFirst list = new AddFirst();
         System.out.println("Linked list:");
         list.addFirst(70);
         list.addFirst(30);
